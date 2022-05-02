@@ -1,0 +1,35 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+  //background-color: rgb(222, 222, 222)
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 10px;
+  margin: 0;
+  background-color: lightblue;
+  margin-bottom: 60px;
+}
+section {
+  border: 5px solid black;
+  /* relatieve breedte tov parent element */
+  width: 90%;
+  /*
+      centreer het p element in het parant section element
+      margin => automatisch later berekenen door browser.
+  */
+  margin: 30px auto;
+  text-align: justify;
+  padding: 20px;
+}
